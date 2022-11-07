@@ -1,0 +1,90 @@
+body {
+  /* background: linear-gradient(60deg, rgb(193, 253, 255), rgb(255, 255, 255)); */
+  background-color: rgb(211, 252, 255);
+  margin: 4rem auto;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  background-color: rgb(232, 255, 255);
+  width: 30rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(173, 189, 189);
+  font-family: 'Roboto' , sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#help label {
+  display: block;
+  margin: 1rem 0;
+}
+
+#help input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.2rem;
+}
+
+#help select {
+  display: block;
+  width: 100%;
+  padding: 0.2rem;
+  
+}
+
+
+#usermessage {
+width: 100%;
+box-sizing: border-box;
+resize: none;
+}
+
+#term {
+  margin: 1rem 0;
+}
+
+#button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#button input {
+  border-radius: 5px;
+  margin: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  border: solid 0.02rem;
+}
+
+#submitbutton {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  font-weight: bold;
+}
+
+#resetbutton:hover {
+  background-color: rgb(173, 189, 189);
+
+}
+
+#submitbutton:hover {
+  background-color: rgb(173, 189, 189);
+  color: rgb(47,47,47);
+}
